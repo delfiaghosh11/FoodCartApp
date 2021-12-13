@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root',
 })
 export class DataService {
-  private url = 'https://foodcart11.000webhostapp.com/';
+  private url = 'https://food-cart.000webhostapp.com/';
   private user: Users;
   private isLogin = JSON.parse(localStorage.getItem('login')) || false;
   private address: Address;
